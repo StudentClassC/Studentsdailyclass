@@ -1,0 +1,40 @@
+﻿body {
+}
+
+
+.auto-style1 {
+    width: 100%;
+    border-collapse: collapse;
+    height: 100%;
+    border: 2px solid #660033;
+    background-color: #00CC99;
+}
+
+.auto-style2 {
+    width: 100%;
+    border-collapse: collapse;
+    height: 100px;
+    border: 2px solid #333300;
+    background-color: #FFCCFF;
+}
+
+.auto-style3 {
+    width: 100%;
+    border-collapse: collapse;
+    height: 430px;
+    border: 2px solid #3333FF;
+    background-color: #99FF99;
+}
+
+.auto-style4 {
+    width: 100%;
+    border-collapse: collapse;
+    height: 80px;
+    border: 1px solid #FF99FF;
+    background-color: #FFCCFF;
+}
+
+.auto-style5 {
+    width: 194px;
+}
+
