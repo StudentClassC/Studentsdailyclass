@@ -7,6 +7,7 @@
     <title></title>
     <link href="../App_Themes/css/myDesign.css" rel="stylesheet" />
     <style type="text/css">
+        
         .auto-style6 {
             width: 117px;
         }
@@ -37,6 +38,7 @@
                                 <td class="auto-style6">&nbsp;</td>
                                 <td>&nbsp;</td>
                             </tr>
+                            <!--uploaded to github -->
                         </table>
                     </td>
                 </tr>
