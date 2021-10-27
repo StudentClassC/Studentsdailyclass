@@ -74,6 +74,7 @@
     <Content Include="App_Themes\image\HeaderPicture.jpg" />
     <Content Include="Web.config" />
     <Content Include="WebForm\myMaster.aspx" />
+    <Content Include="WebForm\WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,6 +84,13 @@
     </Compile>
     <Compile Include="WebForm\myMaster.aspx.designer.cs">
       <DependentUpon>myMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
