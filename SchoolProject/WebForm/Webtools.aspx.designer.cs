@@ -31,6 +31,42 @@ namespace SchoolProject.WebForm {
         protected global::System.Web.UI.WebControls.TextBox txtValue1;
         
         /// <summary>
+        /// rdSum control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton rdSum;
+        
+        /// <summary>
+        /// rdMinus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton rdMinus;
+        
+        /// <summary>
+        /// rdMultiply control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton rdMultiply;
+        
+        /// <summary>
+        /// rdDivide control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton rdDivide;
+        
+        /// <summary>
         /// Label2 control.
         /// </summary>
         /// <remarks>

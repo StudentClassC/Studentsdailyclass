@@ -17,6 +17,10 @@
             </td>
             <td>
                 <asp:TextBox ID="txtValue1" runat="server"></asp:TextBox>
+                <asp:RadioButton ID="rdSum" runat="server" GroupName="Calculate" Text="Sum" />
+                <asp:RadioButton ID="rdMinus" runat="server" GroupName="Calculate" Text="Minus" />
+                <asp:RadioButton ID="rdMultiply" runat="server" GroupName="Calculate" Text="Multiply" />
+                <asp:RadioButton ID="rdDivide" runat="server" GroupName="Calculate" Text="Divide" />
             </td>
             <td>&nbsp;</td>
         </tr>
