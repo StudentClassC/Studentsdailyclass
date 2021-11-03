@@ -34,6 +34,14 @@ namespace SchoolProject.WebForm
             {
                 lblResult.Text = Convert.ToString(a - b);
             }
+            else if(rdMultiply.Checked)
+            {
+                lblResult.Text = Convert.ToString(a * b);
+            }
+            else if(rdDivide.Checked)
+            {
+                lblResult.Text = Convert.ToString(a / b);
+            }
         }
     }
 }
