@@ -11,15 +11,12 @@ namespace SchoolProject.WebForm
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
-
         protected void Button1_Click(object sender, EventArgs e)
         {
             // Variable  string ( A-Z) , Integer 0-9, Float: 9.00, double = storing big numbers including floats, var a=10; 
             /*
              int a="one"; // it is not possible you will have to convert it.
-              
              abc
              cde
              = abccde
@@ -29,12 +26,14 @@ namespace SchoolProject.WebForm
              */
             int a = Convert.ToInt16(txtValue1.Text);
             int b = Convert.ToInt16(txtValue2.Text);
-
-            lblResult.Text = Convert.ToString(a + b);
-
-
-
-
+            if (rdSum.Checked)
+            { 
+              lblResult.Text = Convert.ToString(a + b);
+            }
+            else if (rdMinus.Checked)
+            {
+                lblResult.Text = Convert.ToString(a - b);
+            }
         }
     }
 }
