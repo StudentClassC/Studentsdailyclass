@@ -43,5 +43,10 @@ namespace SchoolProject.WebForm
                 lblResult.Text = Convert.ToString(a / b);
             }
         }
+
+        protected void Calendar1_SelectionChanged(object sender, EventArgs e)
+        {
+            ShowDate.Text = " You Selected " + Calendar1.SelectedDate.ToString("D");
+        }
     }
 }
