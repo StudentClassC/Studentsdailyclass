@@ -56,7 +56,7 @@
     <table class="auto-style7">
         <tr>
             <td>
-                <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="lblAge" runat="server" Text="Select your date of birth"></asp:Label>
             </td>
             <td class="auto-style8">
                 <asp:Calendar ID="Calendar1" runat="server" OnSelectionChanged="Calendar1_SelectionChanged"></asp:Calendar>
@@ -73,9 +73,17 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td class="auto-style8">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>
+                <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Location I live" Width="94px" />
+            </td>
+            <td class="auto-style8">
+                <asp:CheckBox ID="CheckBox1" runat="server" Text="Frankline" />
+                <asp:CheckBox ID="CheckBox2" runat="server" Text="Bellevue" />
+                <asp:CheckBox ID="CheckBox3" runat="server" Text="Brentwood" />
+            </td>
+            <td>
+                <asp:Label ID="lblLocations" runat="server" Text="Label"></asp:Label>
+            </td>
         </tr>
     </table>
 </asp:Content>

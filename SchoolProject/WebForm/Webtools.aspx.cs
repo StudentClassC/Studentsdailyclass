@@ -46,7 +46,41 @@ namespace SchoolProject.WebForm
 
         protected void Calendar1_SelectionChanged(object sender, EventArgs e)
         {
-            ShowDate.Text = " You Selected " + Calendar1.SelectedDate.ToString("D");
+            var currentDate = DateTime.Now.Date;
+            var selectedDate = Calendar1.SelectedDate; 
+            ShowDate.Text = " Your brithday is  " + selectedDate.Date;
+
+            // lblAge.Text = "Date in short format" + Calendar1.SelectedDate.ToShortDateString();
+            //lblAge.Text = "Date in long formate  " + Calendar1.SelectedDate.ToLongDateString();
+            var daysDiff = Convert.ToString(currentDate - selectedDate);
+           
+            // var year = months / 12;
+            char[] MyChar = { '0','.',':' };
+            var NumberofDays = daysDiff.Trim(MyChar);
+            var months = (Convert.ToInt16(NumberofDays)) / 30;
+            lblAge.Text = " You are " + months + "  months old";
+
+
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            string message = "";
+            if(CheckBox1.Checked)
+
+            {
+                message = CheckBox1.Text + " and ";
+
+            }
+            if(CheckBox2.Checked)
+            {
+                message += CheckBox2.Text+"  and ";
+            }
+            if(CheckBox3.Checked)
+            {
+                message += CheckBox3.Text + "  ";
+            }
+            lblLocations.Text = " You lived in " + message;
         }
     }
 }
