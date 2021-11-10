@@ -74,6 +74,7 @@
     <Content Include="App_Themes\image\HeaderPicture.jpg" />
     <Content Include="Web.config" />
     <Content Include="WebForm\FileUpload1.aspx" />
+    <Content Include="WebForm\MultiFileUpload2.aspx" />
     <Content Include="WebForm\myMaster.aspx" />
     <Content Include="WebForm\WebForm1.aspx" />
     <Content Include="WebForm\Webtools.aspx" />
@@ -86,6 +87,13 @@
     </Compile>
     <Compile Include="WebForm\FileUpload1.aspx.designer.cs">
       <DependentUpon>FileUpload1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm\MultiFileUpload2.aspx.cs">
+      <DependentUpon>MultiFileUpload2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\MultiFileUpload2.aspx.designer.cs">
+      <DependentUpon>MultiFileUpload2.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm\myMaster.aspx.cs">
       <DependentUpon>myMaster.aspx</DependentUpon>

@@ -109,3 +109,4 @@ C:\Users\Saleem\Documents\GitHub\Studentsdailyclass\SchoolProject\obj\Debug\Scho
 C:\Users\Saleem\Documents\GitHub\Studentsdailyclass\SchoolProject\obj\Debug\SchoolProject.csproj.CopyComplete
 C:\Users\Saleem\Documents\GitHub\Studentsdailyclass\SchoolProject\obj\Debug\SchoolProject.dll
 C:\Users\Saleem\Documents\GitHub\Studentsdailyclass\SchoolProject\obj\Debug\SchoolProject.pdb
+C:\Users\Saleem\Documents\GitHub\Studentsdailyclass\SchoolProject\obj\Debug\SchoolProject.csprojAssemblyReference.cache
