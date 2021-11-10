@@ -85,5 +85,27 @@
                 <asp:Label ID="lblLocations" runat="server" Text="Label"></asp:Label>
             </td>
         </tr>
+
+         <tr>
+            <td>&nbsp;</td>
+            <td class="auto-style8">
+                <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click1">File Upload</asp:LinkButton>
+             </td>
+            <td>&nbsp;</td>
+        </tr>
+
+         <tr>
+            <td>&nbsp;</td>
+            <td class="auto-style8">
+                &nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+
+          <tr>
+            <td>&nbsp;</td>
+            <td class="auto-style8">
+                &nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
     </table>
 </asp:Content>

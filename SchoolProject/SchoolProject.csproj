@@ -73,12 +73,20 @@
     <Content Include="App_Themes\image\header.jpg" />
     <Content Include="App_Themes\image\HeaderPicture.jpg" />
     <Content Include="Web.config" />
+    <Content Include="WebForm\FileUpload1.aspx" />
     <Content Include="WebForm\myMaster.aspx" />
     <Content Include="WebForm\WebForm1.aspx" />
     <Content Include="WebForm\Webtools.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm\FileUpload1.aspx.cs">
+      <DependentUpon>FileUpload1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\FileUpload1.aspx.designer.cs">
+      <DependentUpon>FileUpload1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm\myMaster.aspx.cs">
       <DependentUpon>myMaster.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -109,7 +117,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -118,7 +128,9 @@
     </None>
     <Content Include="WebForm\Site1.Master" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Uploads\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

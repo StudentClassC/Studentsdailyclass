@@ -82,5 +82,12 @@ namespace SchoolProject.WebForm
             }
             lblLocations.Text = " You lived in " + message;
         }
+
+     
+
+        protected void LinkButton2_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("FileUpload1.aspx");
+        }
     }
 }
