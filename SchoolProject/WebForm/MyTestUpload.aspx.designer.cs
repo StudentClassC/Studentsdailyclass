@@ -13,13 +13,13 @@ namespace SchoolProject.WebForm {
     public partial class MyTestUpload {
         
         /// <summary>
-        /// FileUpload1 control.
+        /// FileUpload11 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
+        protected global::System.Web.UI.WebControls.FileUpload FileUpload11;
         
         /// <summary>
         /// Button1 control.
