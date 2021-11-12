@@ -76,6 +76,7 @@
     <Content Include="WebForm\FileUpload1.aspx" />
     <Content Include="WebForm\MultiFileUpload2.aspx" />
     <Content Include="WebForm\myMaster.aspx" />
+    <Content Include="WebForm\MyTestUpload.aspx" />
     <Content Include="WebForm\WebForm1.aspx" />
     <Content Include="WebForm\Webtools.aspx" />
   </ItemGroup>
@@ -101,6 +102,13 @@
     </Compile>
     <Compile Include="WebForm\myMaster.aspx.designer.cs">
       <DependentUpon>myMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm\MyTestUpload.aspx.cs">
+      <DependentUpon>MyTestUpload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\MyTestUpload.aspx.designer.cs">
+      <DependentUpon>MyTestUpload.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm\Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -137,6 +145,7 @@
     <Content Include="WebForm\Site1.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="myFiles\" />
     <Folder Include="Uploads\" />
   </ItemGroup>
   <PropertyGroup>
