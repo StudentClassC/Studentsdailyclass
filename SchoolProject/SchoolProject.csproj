@@ -72,9 +72,11 @@
     <Content Include="App_Themes\image\Footer.png" />
     <Content Include="App_Themes\image\header.jpg" />
     <Content Include="App_Themes\image\HeaderPicture.jpg" />
+    <Content Include="Uploads\header.jpg" />
     <Content Include="Web.config" />
     <Content Include="WebForm\FileUpload1.aspx" />
     <Content Include="WebForm\MultiFileUpload2.aspx" />
+    <Content Include="WebForm\myFileDownload.aspx" />
     <Content Include="WebForm\myMaster.aspx" />
     <Content Include="WebForm\MyTestUpload.aspx" />
     <Content Include="WebForm\WebForm1.aspx" />
@@ -95,6 +97,13 @@
     </Compile>
     <Compile Include="WebForm\MultiFileUpload2.aspx.designer.cs">
       <DependentUpon>MultiFileUpload2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm\myFileDownload.aspx.cs">
+      <DependentUpon>myFileDownload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\myFileDownload.aspx.designer.cs">
+      <DependentUpon>myFileDownload.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm\myMaster.aspx.cs">
       <DependentUpon>myMaster.aspx</DependentUpon>
@@ -146,7 +155,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="myFiles\" />
-    <Folder Include="Uploads\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
