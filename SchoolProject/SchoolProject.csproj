@@ -67,15 +67,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\myAdvertisements.xml" />
     <Content Include="App_Themes\css\myDesign.css" />
     <Content Include="C#Sharp.jpg" />
     <Content Include="App_Themes\image\Footer.png" />
     <Content Include="App_Themes\image\header.jpg" />
     <Content Include="App_Themes\image\HeaderPicture.jpg" />
+    <Content Include="Uploads\Footer.png" />
     <Content Include="Uploads\header.jpg" />
+    <Content Include="Uploads\HeaderPicture.jpg" />
     <Content Include="Web.config" />
+    <Content Include="WebForm\CookiesExample.aspx" />
     <Content Include="WebForm\FileUpload1.aspx" />
     <Content Include="WebForm\MultiFileUpload2.aspx" />
+    <Content Include="WebForm\myAddRotate.aspx" />
+    <Content Include="WebForm\myCookies.aspx" />
     <Content Include="WebForm\myFileDownload.aspx" />
     <Content Include="WebForm\myMaster.aspx" />
     <Content Include="WebForm\MyTestUpload.aspx" />
@@ -84,6 +90,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm\CookiesExample.aspx.cs">
+      <DependentUpon>CookiesExample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\CookiesExample.aspx.designer.cs">
+      <DependentUpon>CookiesExample.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm\FileUpload1.aspx.cs">
       <DependentUpon>FileUpload1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -97,6 +110,20 @@
     </Compile>
     <Compile Include="WebForm\MultiFileUpload2.aspx.designer.cs">
       <DependentUpon>MultiFileUpload2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm\myAddRotate.aspx.cs">
+      <DependentUpon>myAddRotate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\myAddRotate.aspx.designer.cs">
+      <DependentUpon>myAddRotate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm\myCookies.aspx.cs">
+      <DependentUpon>myCookies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\myCookies.aspx.designer.cs">
+      <DependentUpon>myCookies.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm\myFileDownload.aspx.cs">
       <DependentUpon>myFileDownload.aspx</DependentUpon>

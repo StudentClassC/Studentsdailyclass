@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Uploads/Footer.png</ImageUrl>
+    <NavigateUrl>http://www.yahoo.com</NavigateUrl>
+    <Impressions>200</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Uploads/header.jpg</ImageUrl>
+    <NavigateUrl>http://www.cnn.com</NavigateUrl>
+    <Impressions>100</Impressions>
+  </Ad>
+</Advertisements>
