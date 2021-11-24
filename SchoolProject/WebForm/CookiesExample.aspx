@@ -22,6 +22,8 @@
     <asp:CheckBox ID="wipro" runat="server" Text="Wipro" /> <br />
     <asp:CheckBox ID="HP" runat="server" Text="Hewlette Packard" /> <br />
     <asp:CheckBox ID="samsung" runat="server" Text="Samsung" /> <br />
+      <asp:CheckBox ID="Mac" runat="server" Text="Mac" />
+      <br />
 
     <asp:button runat="server" text="Submit" OnClick="Unnamed2_Click" /> 
 <br />

@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\myAdvertisements.xml" />
+    <Content Include="App_Data\myTestXML.xml" />
     <Content Include="App_Themes\css\myDesign.css" />
     <Content Include="C#Sharp.jpg" />
     <Content Include="App_Themes\image\Footer.png" />

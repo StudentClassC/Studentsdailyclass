@@ -13,7 +13,7 @@ namespace SchoolProject.WebForm
         {
             // Createing Cooki
             // Creating HttpCookie instance by specifying name " student"
-
+          
             HttpCookie cokie = new HttpCookie("student");
             // Assigning value to the crated cookie
             cokie.Value = "Saleem Tahiri";
@@ -22,7 +22,6 @@ namespace SchoolProject.WebForm
             // ----------- Fetching Cookie------//
             var col_val = Response.Cookies["student"].Value;
             label1.Text = col_val;
-
             Response.Cookies["computer"].Expires = DateTime.Now.AddDays(-1);
 
 
@@ -38,9 +37,9 @@ namespace SchoolProject.WebForm
             if (lenovo.Checked)
                 Response.Cookies["computer"]["lenevo"] = "lenevo";
             if (acer.Checked)
-                Response.Cookies["acer"]["acer"] = "acer";
+                Response.Cookies["computer"]["acer"] = "acer";
             if (sony.Checked)
-                Response.Cookies["sony"]["sony"] = "sony";
+                Response.Cookies["computer"]["sony"] = "sony";
 
             //---- Fetching the cookies------//
             if (Request.Cookies["computer"].Values.ToString() != null)
