@@ -13,15 +13,6 @@ namespace SchoolProject.WebForm {
     public partial class ListView {
         
         /// <summary>
-        /// MultiView1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.MultiView MultiView1;
-        
-        /// <summary>
         /// ListBox1 control.
         /// </summary>
         /// <remarks>

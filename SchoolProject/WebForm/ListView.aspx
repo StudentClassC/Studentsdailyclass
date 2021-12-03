@@ -6,12 +6,6 @@
     <table>
         <tr>
             <td>
-                 <asp:MultiView ID="MultiView1" runat="server">
-                     <asp:View>
-
-                     </asp:View>
-
-                 </asp:MultiView>
                  <asp:ListBox ID="ListBox1" runat="server" Height="156px" Width="149px">
                     <asp:ListItem>List of Countries</asp:ListItem>
                     <asp:ListItem>Afghanistan</asp:ListItem>
