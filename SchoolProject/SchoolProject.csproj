@@ -80,6 +80,7 @@
     <Content Include="Web.config" />
     <Content Include="WebForm\CookiesExample.aspx" />
     <Content Include="WebForm\FileUpload1.aspx" />
+    <Content Include="WebForm\ListView.aspx" />
     <Content Include="WebForm\MultiFileUpload2.aspx" />
     <Content Include="WebForm\myAddRotate.aspx" />
     <Content Include="WebForm\myCookies.aspx" />
@@ -104,6 +105,13 @@
     </Compile>
     <Compile Include="WebForm\FileUpload1.aspx.designer.cs">
       <DependentUpon>FileUpload1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm\ListView.aspx.cs">
+      <DependentUpon>ListView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\ListView.aspx.designer.cs">
+      <DependentUpon>ListView.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm\MultiFileUpload2.aspx.cs">
       <DependentUpon>MultiFileUpload2.aspx</DependentUpon>
