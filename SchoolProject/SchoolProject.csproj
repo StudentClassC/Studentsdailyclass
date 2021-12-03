@@ -82,6 +82,7 @@
     <Content Include="WebForm\FileUpload1.aspx" />
     <Content Include="WebForm\ListView.aspx" />
     <Content Include="WebForm\MultiFileUpload2.aspx" />
+    <Content Include="WebForm\MultiViewTest.aspx" />
     <Content Include="WebForm\myAddRotate.aspx" />
     <Content Include="WebForm\myCookies.aspx" />
     <Content Include="WebForm\myFileDownload.aspx" />
@@ -119,6 +120,13 @@
     </Compile>
     <Compile Include="WebForm\MultiFileUpload2.aspx.designer.cs">
       <DependentUpon>MultiFileUpload2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm\MultiViewTest.aspx.cs">
+      <DependentUpon>MultiViewTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\MultiViewTest.aspx.designer.cs">
+      <DependentUpon>MultiViewTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm\myAddRotate.aspx.cs">
       <DependentUpon>myAddRotate.aspx</DependentUpon>

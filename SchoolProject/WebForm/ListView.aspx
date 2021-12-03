@@ -8,7 +8,7 @@
             <td>
                  <asp:ListBox ID="ListBox1" runat="server" Height="156px" Width="149px">
                     <asp:ListItem>List of Countries</asp:ListItem>
-                    <asp:ListItem>Afghanistan</asp:ListItem>
+                    <asp:ListItem Value="Afghanistan">Afghanistan</asp:ListItem>
                     <asp:ListItem>United States</asp:ListItem>
                     <asp:ListItem>England</asp:ListItem>
                     <asp:ListItem>Canada</asp:ListItem>
@@ -23,8 +23,28 @@
                  </asp:ListBox>
 
             </td>
+            <td>
+                <asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:ListItem>Fruit List</asp:ListItem>
+                        <asp:ListItem>Apple</asp:ListItem>
+                        <asp:ListItem>Banana</asp:ListItem>
+                        <asp:ListItem>Orange</asp:ListItem>
+                        <asp:ListItem>Mango</asp:ListItem>
+
+                </asp:DropDownList>
+                <asp:ListBox ID="ListBox3" runat="server" Height="138px" SelectionMode="Multiple" Width="130px">
+                    <asp:ListItem Value="1">Vehicles</asp:ListItem>
+                    <asp:ListItem>Toyota</asp:ListItem>
+                    <asp:ListItem>Honda</asp:ListItem>
+                    <asp:ListItem>Mercedez</asp:ListItem>
+                    <asp:ListItem>GMC</asp:ListItem>
+                    <asp:ListItem>Chevorlet</asp:ListItem>
+                    <asp:ListItem>Suzuki</asp:ListItem>
+                    <asp:ListItem>Nissan</asp:ListItem>
+                </asp:ListBox>
+            </td>
         </tr>
-       
+      
     </table>
    
   
