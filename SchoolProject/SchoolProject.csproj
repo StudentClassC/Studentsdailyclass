@@ -79,6 +79,7 @@
     <Content Include="Uploads\HeaderPicture.jpg" />
     <Content Include="Web.config" />
     <Content Include="WebForm\CookiesExample.aspx" />
+    <Content Include="WebForm\EntryFormValidation.aspx" />
     <Content Include="WebForm\FileUpload1.aspx" />
     <Content Include="WebForm\ListView.aspx" />
     <Content Include="WebForm\MultiFileUpload2.aspx" />
@@ -99,6 +100,13 @@
     </Compile>
     <Compile Include="WebForm\CookiesExample.aspx.designer.cs">
       <DependentUpon>CookiesExample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm\EntryFormValidation.aspx.cs">
+      <DependentUpon>EntryFormValidation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\EntryFormValidation.aspx.designer.cs">
+      <DependentUpon>EntryFormValidation.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm\FileUpload1.aspx.cs">
       <DependentUpon>FileUpload1.aspx</DependentUpon>
