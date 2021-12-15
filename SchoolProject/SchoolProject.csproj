@@ -77,19 +77,24 @@
     <Content Include="Uploads\Footer.png" />
     <Content Include="Uploads\header.jpg" />
     <Content Include="Uploads\HeaderPicture.jpg" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="WebForm\CookiesExample.aspx" />
     <Content Include="WebForm\EntryFormValidation.aspx" />
     <Content Include="WebForm\FileUpload1.aspx" />
+    <Content Include="WebForm\frmSession.aspx" />
     <Content Include="WebForm\ListView.aspx" />
     <Content Include="WebForm\MultiFileUpload2.aspx" />
     <Content Include="WebForm\MultiViewTest.aspx" />
     <Content Include="WebForm\myAddRotate.aspx" />
-    <Content Include="WebForm\myCookies.aspx" />
     <Content Include="WebForm\myFileDownload.aspx" />
     <Content Include="WebForm\myMaster.aspx" />
+    <Content Include="WebForm\mySessionPractice.aspx" />
     <Content Include="WebForm\MyTestUpload.aspx" />
+    <Content Include="WebForm\Session2.aspx" />
     <Content Include="WebForm\WebForm1.aspx" />
+    <Content Include="WebForm\WebForm2.aspx" />
     <Content Include="WebForm\Webtools.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -114,6 +119,13 @@
     </Compile>
     <Compile Include="WebForm\FileUpload1.aspx.designer.cs">
       <DependentUpon>FileUpload1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm\frmSession.aspx.cs">
+      <DependentUpon>frmSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\frmSession.aspx.designer.cs">
+      <DependentUpon>frmSession.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm\ListView.aspx.cs">
       <DependentUpon>ListView.aspx</DependentUpon>
@@ -143,13 +155,6 @@
     <Compile Include="WebForm\myAddRotate.aspx.designer.cs">
       <DependentUpon>myAddRotate.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm\myCookies.aspx.cs">
-      <DependentUpon>myCookies.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm\myCookies.aspx.designer.cs">
-      <DependentUpon>myCookies.aspx</DependentUpon>
-    </Compile>
     <Compile Include="WebForm\myFileDownload.aspx.cs">
       <DependentUpon>myFileDownload.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -164,12 +169,26 @@
     <Compile Include="WebForm\myMaster.aspx.designer.cs">
       <DependentUpon>myMaster.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebForm\mySessionPractice.aspx.cs">
+      <DependentUpon>mySessionPractice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\mySessionPractice.aspx.designer.cs">
+      <DependentUpon>mySessionPractice.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm\MyTestUpload.aspx.cs">
       <DependentUpon>MyTestUpload.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="WebForm\MyTestUpload.aspx.designer.cs">
       <DependentUpon>MyTestUpload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm\Session2.aspx.cs">
+      <DependentUpon>Session2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\Session2.aspx.designer.cs">
+      <DependentUpon>Session2.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm\Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -184,6 +203,13 @@
     </Compile>
     <Compile Include="WebForm\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm\WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm\WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm\Webtools.aspx.cs">
       <DependentUpon>Webtools.aspx</DependentUpon>

@@ -105,7 +105,6 @@ C:\Users\Saleem\Documents\GitHub\Studentsdailyclass\SchoolProject\bin\roslyn\VBC
 C:\Users\Saleem\Documents\GitHub\Studentsdailyclass\SchoolProject\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Saleem\Documents\GitHub\Studentsdailyclass\SchoolProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Saleem\Documents\GitHub\Studentsdailyclass\SchoolProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Saleem\Documents\GitHub\Studentsdailyclass\SchoolProject\obj\Debug\SchoolProject.csprojAssemblyReference.cache
 C:\Users\Saleem\Documents\GitHub\Studentsdailyclass\SchoolProject\obj\Debug\SchoolProject.csproj.CoreCompileInputs.cache
 C:\Users\Saleem\Documents\GitHub\Studentsdailyclass\SchoolProject\obj\Debug\SchoolProject.csproj.CopyComplete
 C:\Users\Saleem\Documents\GitHub\Studentsdailyclass\SchoolProject\obj\Debug\SchoolProject.dll
